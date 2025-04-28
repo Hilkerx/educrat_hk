@@ -49,18 +49,7 @@ export const menuList = [
           { href: "/dshb-quiz", label: "Questionário" },
           { href: "/dshb-survey", label: "Pesquisa" },
         ],
-      },
-      {
-        title: "Cursos Populares",
-        links: [
-          { label: "Desenvolvedor Web", href: "#" },
-          { label: "Desenvolvedor Mobile", href: "#" },
-          { label: "Marketing Digital", href: "#" },
-          { label: "Desenvolvimento", href: "#" },
-          { label: "Finanças e Contabilidade", href: "#" },
-          { label: "Design", href: "#" },
-          { label: "Ver Todos os Cursos", href: "#" },
-        ],
+
       },
     ],
   },

@@ -92,7 +92,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   <div className="row x-gap-40">
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                        Course List Layouts
+                      Layouts de lista de cursos
                       </h4>
 
                       <ul className="mega__list">
@@ -115,7 +115,7 @@ export default function Menu({ allClasses, headerPosition }) {
 
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                        Course Single Layouts
+                      Layouts individuais do curso
                       </h4>
 
                       <ul className="mega__list">
@@ -137,7 +137,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">About Courses</h4>
+                      <h4 className="text-17 fw-500 mb-20">Sobre os Cursos</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[2].links.map((elm, i) => (
@@ -158,7 +158,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">Dashboard Pages</h4>
+                      <h4 className="text-17 fw-500 mb-20">Páginas do painel</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[3].links.map((elm, i) => (
@@ -178,42 +178,10 @@ export default function Menu({ allClasses, headerPosition }) {
                       </ul>
                     </div>
 
-                    <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">Popular Courses</h4>
-
-                      <ul className="mega__list">
-                        {menuList[1].links[4].links.map((elm, i) => (
-                          <li
-                            key={i}
-                            className={
-                              pathname.split("/")[1] == elm.href.split("/")[1]
-                                ? "activeMenu"
-                                : "inActiveMegaMenu"
-                            }
-                          >
-                            <Link data-barba to={elm.href}>
-                              {elm.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                   
                   </div>
 
-                  <div className="mega-banner bg-purple-1 ml-40">
-                    <div className="text-24 lh-15 text-white fw-700">
-                      Join more than
-                      <br />
-                      <span className="text-green-1">8 million learners</span>
-                      worldwide
-                    </div>
-                    <Link
-                      to="#"
-                      className="button -md -green-1 text-dark-1 fw-500 col-12"
-                    >
-                      Start Learning For Free
-                    </Link>
-                  </div>
+                
                 </div>
               </div>
             </li>
