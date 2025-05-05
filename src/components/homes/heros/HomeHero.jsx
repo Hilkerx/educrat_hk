@@ -22,12 +22,12 @@ const masthead_info = [
 ];
 
 const hero_content = {
-  title: "Aprenda novas habilidades online com os melhores",
+  title: "Aprenda tecnologia com os melhores especialistas online!",
   text_underline: "Educadores!",
   info_hero: (
     <>
-      Desenvolva habilidades com cursos, certificados, diplomas on-line,
-      <br /> universidades e empresas de classe mundial.
+Desenvolva habilidades com cursos, certificados e diplomas online 
+      <br /> de instituições e empresas de elite.
     </>
   ),
   starts: [

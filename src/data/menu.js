@@ -11,7 +11,7 @@ export const menuList = [
       {
         title: "Layouts da Lista de Cursos",
         links: [
-          { href: "/courses-list-4", label: "Lista de Cursos v4" },
+          { href: "/courses-list-4", label: "Desenvolvimento Web (HTML, CSS, JavaScript)" },
         ],
       },
       {

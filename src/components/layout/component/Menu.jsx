@@ -158,7 +158,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">Páginas do painel</h4>
+                      <h4 className="text-17 fw-500 mb-20">Páginas do Painel </h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[3].links.map((elm, i) => (
