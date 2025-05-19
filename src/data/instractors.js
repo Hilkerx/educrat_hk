@@ -1,10 +1,10 @@
 export const teamMembers = [
   {
     id: 1,
-    name: "Floyd Miles",
-    role: "President of Sales",
+    name: "Fernando Almeida",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/1.png",
-    category: "Animation",
+    category: "Animação",
     rating: 4.5,
     reviews: 3545,
     students: 692,
@@ -16,7 +16,7 @@ export const teamMembers = [
       },
       {
         icon: "icon-twitter",
-        url: "https://twitter.com/?lang=en",
+        url: "https://twitter.com/?lang=pt",
       },
       {
         icon: "icon-instagram",
@@ -30,8 +30,8 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "Cameron Williamson",
-    role: "Web Designer",
+    name: "Camila Oliveira",
+    role: "Designer Web",
     image: "/assets/img/team/2.png",
     category: "Design",
     rating: 3.5,
@@ -45,7 +45,7 @@ export const teamMembers = [
       },
       {
         icon: "icon-twitter",
-        url: "https://twitter.com/?lang=en",
+        url: "https://twitter.com/?lang=pt",
       },
       {
         icon: "icon-instagram",
@@ -59,10 +59,10 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Brooklyn Simmons",
-    role: "Dog Trainer",
+    name: "Beatriz Santos",
+    role: "Treinadora de Cães",
     image: "/assets/img/team/3.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 5,
     reviews: 3545,
     students: 692,
@@ -74,7 +74,7 @@ export const teamMembers = [
       },
       {
         icon: "icon-twitter",
-        url: "https://twitter.com/?lang=en",
+        url: "https://twitter.com/?lang=pt",
       },
       {
         icon: "icon-instagram",
@@ -88,10 +88,10 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "Wade Warren",
-    role: "Marketing Coordinator",
+    name: "Rafael Costa",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/4.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4,
     reviews: 3545,
     students: 692,
@@ -103,7 +103,7 @@ export const teamMembers = [
       },
       {
         icon: "icon-twitter",
-        url: "https://twitter.com/?lang=en",
+        url: "https://twitter.com/?lang=pt",
       },
       {
         icon: "icon-instagram",
@@ -118,9 +118,9 @@ export const teamMembers = [
   {
     id: 5,
     name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/5.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4,
     reviews: 3545,
     students: 692,
@@ -147,9 +147,9 @@ export const teamMembers = [
   {
     id: 6,
     name: "Albert Flores",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     image: "/assets/img/team/6.png",
-    category: "Animation",
+    category: "Animação",
     rating: 4.5,
     reviews: 3545,
     students: 692,
@@ -176,7 +176,7 @@ export const teamMembers = [
   {
     id: 7,
     name: "Cody Fisher",
-    role: "Web Designer",
+    role: "Designer Web",
     image: "/assets/img/team/7.png",
     category: "Design",
     rating: 3.5,
@@ -205,9 +205,9 @@ export const teamMembers = [
   {
     id: 8,
     name: "Theresa Webb",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/8.png",
-    category: "Business",
+    category: "Negócios",
     rating: 5,
     reviews: 3545,
     students: 692,
@@ -235,9 +235,9 @@ export const teamMembers = [
   {
     id: 9,
     name: "Floyd Miles",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/1.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 5,
     reviews: 3545,
     students: 692,
@@ -264,9 +264,9 @@ export const teamMembers = [
   {
     id: 10,
     name: "Cameron Williamson",
-    role: "Web Designer",
+    role: "Designer Web",
     image: "/assets/img/team/2.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 3,
     reviews: 3545,
     students: 692,
@@ -293,9 +293,9 @@ export const teamMembers = [
   {
     id: 11,
     name: "Brooklyn Simmons",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     image: "/assets/img/team/3.png",
-    category: "Animation",
+    category: "Animação",
     rating: 3.5,
     reviews: 3545,
     students: 692,
@@ -322,7 +322,7 @@ export const teamMembers = [
   {
     id: 12,
     name: "Wade Warren",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/4.png",
     category: "Design",
     rating: 4.5,
@@ -351,9 +351,9 @@ export const teamMembers = [
   {
     id: 13,
     name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/5.png",
-    category: "Business",
+    category: "Negócios",
     rating: 5,
     reviews: 3545,
     students: 692,
@@ -380,9 +380,9 @@ export const teamMembers = [
   {
     id: 14,
     name: "Albert Flores",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     image: "/assets/img/team/6.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4.5,
     reviews: 3545,
     students: 692,
@@ -409,9 +409,9 @@ export const teamMembers = [
   {
     id: 15,
     name: "Cody Fisher",
-    role: "Web Designer",
+    role: "Designer Web",
     image: "/assets/img/team/7.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 3.5,
     reviews: 3545,
     students: 692,
@@ -438,9 +438,9 @@ export const teamMembers = [
   {
     id: 16,
     name: "Theresa Webb",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/8.png",
-    category: "Animation",
+    category: "Animação",
     rating: 3,
     reviews: 3545,
     students: 692,
@@ -468,7 +468,7 @@ export const teamMembers = [
   {
     id: 17,
     name: "Floyd Miles",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/1.png",
     category: "Design",
     rating: 4.5,
@@ -497,9 +497,9 @@ export const teamMembers = [
   {
     id: 18,
     name: "Cameron Williamson",
-    role: "Web Designer",
+    role: "Designer Web",
     image: "/assets/img/team/2.png",
-    category: "Animation",
+    category: "Animação",
     rating: 4,
     reviews: 3545,
     students: 692,
@@ -526,9 +526,9 @@ export const teamMembers = [
   {
     id: 19,
     name: "Brooklyn Simmons",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     image: "/assets/img/team/3.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 5,
     reviews: 3545,
     students: 692,
@@ -555,9 +555,9 @@ export const teamMembers = [
   {
     id: 20,
     name: "Wade Warren",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/4.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4.5,
     reviews: 3545,
     students: 692,
@@ -584,9 +584,9 @@ export const teamMembers = [
   {
     id: 21,
     name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     image: "/assets/img/team/5.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 3.5,
     reviews: 3545,
     students: 692,
@@ -613,9 +613,9 @@ export const teamMembers = [
   {
     id: 22,
     name: "Albert Flores",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     image: "/assets/img/team/6.png",
-    category: "Animation",
+    category: "Animação",
     rating: 3.5,
     reviews: 3545,
     students: 692,
@@ -642,7 +642,7 @@ export const teamMembers = [
   {
     id: 23,
     name: "Cody Fisher",
-    role: "Web Designer",
+    role: "Designer Web",
     image: "/assets/img/team/7.png",
     category: "Design",
     rating: 5,
@@ -671,9 +671,9 @@ export const teamMembers = [
   {
     id: 24,
     name: "Theresa Webb",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     image: "/assets/img/team/8.png",
-    category: "Business",
+    category: "Negócios",
     rating: 4,
     reviews: 3545,
     students: 692,
@@ -705,11 +705,11 @@ export const rating = [
   { id: 4, star: 5, text: "3.0 & up", range: [3, 5] },
 ];
 export const categories = [
-  { id: 1, title: "Animation" },
+  { id: 1, title: "Animação" },
   { id: 2, title: "Design" },
-  { id: 3, title: "Illustration" },
+  { id: 3, title: "Ilustração" },
 
-  { id: 5, title: "Business" },
+  { id: 5, title: "Negócios" },
 ];
 export const teachers = [
   {
@@ -745,12 +745,12 @@ export const marketingCoordinator = {
   rating: "4.5",
   students: "565",
   courses: "14",
-  role: "Marketing Coordinator",
+  role: "Coordenador de Marketing",
 };
 
 export const featuredTracher = {
   name: "Ali Tufan",
-  desc: "Teaching on Education platform has been an amazing experience",
+  desc: "Ensinar na plataforma IntegraEdu tem sido uma experiência incrível",
   title: "Designer, Apple Inc",
   imgSrc: "/assets/img/home-7/courses/1.png",
 };
@@ -759,11 +759,11 @@ export const instractorsEight = [
   {
     id: 46,
     image: "/assets/img/speakers/1.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4,
     reviews: 3545,
     name: "Jerome Bell",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     students: 692,
     courses: 15,
     socialProfile: [
@@ -788,11 +788,11 @@ export const instractorsEight = [
   {
     id: 47,
     image: "/assets/img/speakers/2.png",
-    category: "Illustration",
+    category: "Ilustração",
     rating: 4.5,
     reviews: 3545,
     name: "Bessie Cooper",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     students: 692,
     courses: 15,
     socialProfile: [
@@ -817,11 +817,11 @@ export const instractorsEight = [
   {
     id: 48,
     image: "/assets/img/speakers/3.png",
-    category: "Animation",
+    category: "Animação",
     rating: 3,
     reviews: 3545,
     name: "Kristin Watson",
-    role: "Nursing Assistant",
+    role: "Assistente de Enfermagem",
     students: 692,
     courses: 15,
     socialProfile: [
@@ -851,9 +851,9 @@ export const instractorsNine = [
     name: "Floyd Miles",
     image: "/assets/img/streams/1.png",
 
-    category: "Business",
+    category: "Negócios",
     email: "miles@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -879,7 +879,7 @@ export const instractorsNine = [
     image: "/assets/img/streams/2.png",
     category: "Design",
     email: "jacob@gmail.com",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -903,11 +903,11 @@ export const instractorsNine = [
     id: 51,
     name: "Cody Fisher",
     image: "/assets/img/streams/3.png",
-    category: "Illustration",
+    category: "Ilustração",
 
-    category: "Animation",
+    category: "Animação",
     email: "cody@gmail.com",
-    role: "Nursing Assistant",
+    role: "Assistente de Enfermagem",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -931,9 +931,9 @@ export const instractorsNine = [
     id: 52,
     name: "Jane Cooper",
     image: "/assets/img/streams/4.png",
-    category: "Business",
+    category: "Negócios",
     email: "jane@gmail.com",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -957,9 +957,9 @@ export const instractorsNine = [
     id: 53,
     name: "Annette Black",
     image: "/assets/img/streams/5.png",
-    category: "Animation",
+    category: "Animação",
     email: "annette@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -984,9 +984,9 @@ export const instractorsNine = [
     name: "Robert Fox",
     image: "/assets/img/streams/6.png",
 
-    category: "Animation",
+    category: "Animação",
     email: "robert@gmail.com",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1012,12 +1012,12 @@ export const teamMembersFull = [
   {
     id: 55,
     name: "Floyd Miles",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     imageSrc: "/assets/img/team/1.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Animation",
+    category: "Animação",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1040,7 +1040,7 @@ export const teamMembersFull = [
   {
     id: 56,
     name: "Cameron Williamson",
-    role: "Web Designer",
+    role: "Designer Web",
     imageSrc: "/assets/img/team/2.png",
     rating: "4.5",
     studentCount: 692,
@@ -1068,12 +1068,12 @@ export const teamMembersFull = [
   {
     id: 57,
     name: "Brooklyn Simmons",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     imageSrc: "/assets/img/team/3.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Illustration",
+    category: "Ilustração",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1096,12 +1096,12 @@ export const teamMembersFull = [
   {
     id: 58,
     name: "Wade Warren",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     imageSrc: "/assets/img/team/4.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Business",
+    category: "Negócios",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1124,12 +1124,12 @@ export const teamMembersFull = [
   {
     id: 59,
     name: "Bessie Cooper",
-    role: "Marketing Coordinator",
+    role: "Coordenador de Marketing",
     imageSrc: "/assets/img/team/5.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Animation",
+    category: "Animação",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1152,7 +1152,7 @@ export const teamMembersFull = [
   {
     id: 60,
     name: "Albert Flores",
-    role: "Dog Trainer",
+    role: "Treinador de Cães",
     imageSrc: "/assets/img/team/6.png",
     rating: "4.5",
     studentCount: 692,
@@ -1180,12 +1180,12 @@ export const teamMembersFull = [
   {
     id: 61,
     name: "Cody Fisher",
-    role: "Web Designer",
+    role: "Designer Web",
     imageSrc: "/assets/img/team/7.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Illustration",
+    category: "Ilustração",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1208,12 +1208,12 @@ export const teamMembersFull = [
   {
     id: 62,
     name: "Theresa Webb",
-    role: "President of Sales",
+    role: "Presidente de Vendas",
     imageSrc: "/assets/img/team/8.png",
     rating: "4.5",
     studentCount: 692,
     courseCount: 15,
-    category: "Business",
+    category: "Negócios",
     socialProfile: [
       {
         icon: "icon-facebook",
@@ -1236,16 +1236,16 @@ export const teamMembersFull = [
 ];
 
 export const populerTags = [
-  { id: 1, text: "User Experience Design" },
+  { id: 1, text: "Design de Experiência do Usuário" },
   { id: 2, text: "Figma" },
-  { id: 3, text: "Graphical User Interface" },
-  { id: 4, text: "Web Design" },
+  { id: 3, text: "Interface Gráfica do Usuário" },
+  { id: 4, text: "Design Web" },
   { id: 5, text: "Adobe XD" },
-  { id: 6, text: "Sketch Software" },
-  { id: 7, text: "Prototyping" },
-  { id: 8, text: "Product Design" },
+  { id: 6, text: "Software Sketch" },
+  { id: 7, text: "Prototipagem" },
+  { id: 8, text: "Design de Produto" },
   { id: 9, text: "Webflow" },
-  { id: 10, text: "Mobile App Design" },
+  { id: 10, text: "Design de Aplicativos Móveis" },
 ];
 
 export const sortingOptions = ["Default", "Rating (asc)", "Rating (dsc)"];

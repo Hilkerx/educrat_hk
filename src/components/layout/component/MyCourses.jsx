@@ -10,13 +10,12 @@ export default function MyCourses() {
         data-el-toggle=".js-courses-toggle"
         onClick={() => setIsActive((pre) => !pre)}
       >
-        My Courses <i className="text-9 icon-chevron-down ml-10"></i>
+          Meus Cursos <i className="text-9 icon-chevron-down ml-10"></i>
       </a>
 
       <div
-        className={`toggle-element js-courses-toggle ${
-          isActive ? "-is-el-visible" : ""
-        } `}
+        className={`toggle-element js-courses-toggle ${isActive ? "-is-el-visible" : ""
+          } `}
       >
         <div className="toggle-bottom -courses bg-white -dark-bg-dark-1 shadow-4 border-light rounded-8 mt-20">
           <div className="px-30 py-30">
@@ -29,7 +28,7 @@ export default function MyCourses() {
 
               <div className="ml-15">
                 <div className="text-dark-1 lh-15 fw-500">
-                  Complete Python Bootcamp From Zero to Hero in Python
+                  Curso Completo de Python: Do Zero ao Herói em Python
                 </div>
                 <div className="progress-bar mt-20">
                   <div className="progress-bar__bg bg-light-3"></div>
@@ -47,7 +46,7 @@ export default function MyCourses() {
 
               <div className="ml-15">
                 <div className="text-dark-1 lh-15 fw-500">
-                  The Ultimate Drawing Course Beginner to Advanced
+                  Curso de Desenho Definitivo: Iniciante ao Avançado
                 </div>
                 <div className="progress-bar mt-20">
                   <div className="progress-bar__bg bg-light-3"></div>
@@ -61,7 +60,7 @@ export default function MyCourses() {
                 href="#"
                 className="button py-20 -dark-1 text-white -dark-bg-purple-1 -dark-border-dark-2 col-12"
               >
-                Go to My Learning
+                Ir para Meu Aprendizado
               </a>
             </div>
           </div>

@@ -5,20 +5,19 @@ import { Link } from "react-router-dom";
 export default function Instructors({ backgroundColor }) {
   return (
     <section
-      className={`layout-pt-lg layout-pb-lg ${
-        backgroundColor ? backgroundColor : ""
-      }`}
+      className={`layout-pt-lg layout-pb-lg ${backgroundColor ? backgroundColor : ""
+        }`}
     >
       <div className="container">
         <div className="row y-gap-20 justify-between items-center">
           <div className="col-lg-6">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title " data-aos="fade-left">
-                Learn from the best instructors
+                Aprenda com os melhores instrutores
               </h2>
 
               <p className="sectionTitle__text " data-aos="fade-left">
-                Lorem ipsum dolor sit amet, consectetur.
+                Descubra como a IntegraEdu pode transformar sua jornada de aprendizado.
               </p>
             </div>
           </div>
@@ -28,7 +27,7 @@ export default function Instructors({ backgroundColor }) {
               to="/instructors-list-1"
               className="button -icon -purple-3 text-purple-1"
             >
-              View All Instructors
+              Ver Todos os Instrutores
               <i className="icon-arrow-top-right text-13 ml-10"></i>
             </Link>
           </div>
@@ -81,7 +80,7 @@ export default function Instructors({ backgroundColor }) {
                       <div className="d-flex items-center">
                         <div className="icon-online-learning text-light-1 text-11 mr-5"></div>
                         <div className="text-14 lh-12">
-                          {elm.students} Students
+                          {elm.students} Estudantes
                         </div>
                       </div>
                     </div>
@@ -90,7 +89,7 @@ export default function Instructors({ backgroundColor }) {
                       <div className="d-flex items-center">
                         <div className="icon-play text-light-1 text-11 mr-5"></div>
                         <div className="text-14 lh-12">
-                          {elm.courses} Course
+                          {elm.courses} Curso
                         </div>
                       </div>
                     </div>
@@ -104,9 +103,9 @@ export default function Instructors({ backgroundColor }) {
         <div className="row justify-center text-center pt-60 lg:pt-40">
           <div className="col-auto">
             <p className="lh-1">
-              Want to help people learn, grow and achieve more in life?
+              Quer ajudar as pessoas a aprender, crescer e alcançar mais na vida?
               <Link className="text-purple-1 underline" to="/instructor-become">
-                Become an instructor
+                Torne-se um instrutor
               </Link>
             </p>
           </div>

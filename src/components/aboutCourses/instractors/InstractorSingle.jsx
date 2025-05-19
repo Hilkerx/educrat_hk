@@ -61,13 +61,13 @@ export default function InstractorSingle({ id }) {
                   <div className="d-flex x-gap-20 pt-15">
                     <div className="d-flex items-center text-white">
                       <div className="icon-star mr-10"></div>
-                      <div className="text-13 lh-1">Instructor Rating</div>
+                      <div className="text-13 lh-1">Classificação do Instrutor</div>
                     </div>
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-video-file mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.reviews || 3545} Reviews
+                        {pageItem.reviews || 3545} Avaliações
                       </div>
                     </div>
 
@@ -75,14 +75,14 @@ export default function InstractorSingle({ id }) {
                       <div className="icon-person-3 mr-10"></div>
                       <div className="text-13 lh-1">
                         {pageItem.students || pageItem.studentCount || 143}{" "}
-                        Students
+                        Alunos
                       </div>
                     </div>
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-play mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.courses || pageItem.courseCount || 453} Course
+                        {pageItem.courses || pageItem.courseCount || 453} Curso(s)
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export default function InstractorSingle({ id }) {
 
                 <div className="d-flex items-center mt-30">
                   <button className="button -md -green-1 text-dark-1">
-                    Send Message
+                    Enviar Mensagem
                   </button>
 
                   <div className="d-flex items-center x-gap-15 text-white ml-25">
@@ -115,9 +115,8 @@ export default function InstractorSingle({ id }) {
                 <div className="tabs__controls d-flex js-tabs-controls">
                   <button
                     onClick={() => setActiveTab(1)}
-                    className={`tabs__button js-tabs-button ${
-                      activeTab == 1 ? "is-active" : ""
-                    }`}
+                    className={`tabs__button js-tabs-button ${activeTab == 1 ? "is-active" : ""
+                      }`}
                     data-tab-target=".-tab-item-1"
                     type="button"
                   >
@@ -125,9 +124,8 @@ export default function InstractorSingle({ id }) {
                   </button>
                   <button
                     onClick={() => setActiveTab(2)}
-                    className={`tabs__button js-tabs-button ml-30 ${
-                      activeTab == 2 ? "is-active" : ""
-                    } `}
+                    className={`tabs__button js-tabs-button ml-30 ${activeTab == 2 ? "is-active" : ""
+                      } `}
                     data-tab-target=".-tab-item-2"
                     type="button"
                   >
@@ -137,43 +135,35 @@ export default function InstractorSingle({ id }) {
 
                 <div className="tabs__content pt-60 lg:pt-40 js-tabs-content">
                   <div
-                    className={`tabs__pane -tab-item-1  ${
-                      activeTab == 1 ? "is-active" : ""
-                    } `}
+                    className={`tabs__pane -tab-item-1  ${activeTab == 1 ? "is-active" : ""
+                      } `}
                   >
-                    <h4 className="text-20">Description</h4>
+                    <h4 className="text-20">Descrição</h4>
                     <p className="text-light-1 mt-30">
-                      Phasellus enim magna, varius et commodo ut, ultricies
-                      vitae velit. Ut nulla tellus, eleifend euismod
-                      pellentesque vel, sagittis vel justo. In libero urna,
-                      venenatis sit amet ornare non, suscipit nec risus. Sed
-                      consequat justo non mauris pretium at tempor justo
-                      sodales. Quisque tincidunt laoreet malesuada. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur.
+                    Phasellus é realmente grande, com variações e comodidade, e vida repleta de dinamismo. Nada é em vão, com equilíbrio entre estilo e funcionalidade, e foco direto. Em liberdade, a essência é o charme e a força, com firmeza no crescimento. O resultado justo não está apenas no valor, mas também no equilíbrio do tempo. Cada detalhe aprimora o todo. Junto aos grandes aliados e ideias grandiosas, surgirá algo extraordinário.
                       <br />
                       <br />
-                      This course is aimed at people interested in UI/UX Design.
-                      We’ll start from the very beginning and work all the way
-                      through, step by step. If you already have some UI/UX
-                      Design experience but want to get up to speed using Adobe
-                      XD then this course is perfect for you too!
+                      Este curso é destinado a pessoas interessadas em Design de
+                      UI/UX. Começaremos do início e trabalharemos até o final,
+                      passo a passo. Se você já tem alguma experiência em
+                      Design de UI/UX, mas deseja se atualizar usando o Adobe
+                      XD, este curso também é perfeito para você!
                       <br />
                       <br />
-                      First, we will go over the differences between UX and UI
-                      Design. We will look at what our brief for this real-world
-                      project is, then we will learn about low-fidelity
-                      wireframes and how to make use of existing UI design kits.
+                      Primeiro, abordaremos as diferenças entre Design de UX e
+                      UI. Veremos qual é o nosso briefing para este projeto do
+                      mundo real e, em seguida, aprenderemos sobre wireframes de
+                      baixa fidelidade e como utilizar kits de design de UI
+                      existentes.
                     </p>
                     <button className="button underline text-purple-1 mt-30">
-                      Show More
+                      Mostrar Mais
                     </button>
                   </div>
 
                   <div
-                    className={`tabs__pane -tab-item-2 ${
-                      activeTab == 2 ? "is-active" : ""
-                    } `}
+                    className={`tabs__pane -tab-item-2 ${activeTab == 2 ? "is-active" : ""
+                      } `}
                   >
                     <div className="row">
                       {coursesData.slice(0, 2).map((elm, i) => (

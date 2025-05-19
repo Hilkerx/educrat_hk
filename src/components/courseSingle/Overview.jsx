@@ -7,12 +7,11 @@ export default function Overview() {
 
   return (
     <div id="overview" className="pt-60 lg:pt-40 to-over">
-      <h4 className="text-18 fw-500">Description</h4>
+      <h4 className="text-18 fw-500">Descrição</h4>
 
       <div
-        className={`show-more  mt-30 js-show-more ${
-          showMore ? "is-active" : ""
-        } `}
+        className={`show-more  mt-30 js-show-more ${showMore ? "is-active" : ""
+          } `}
       >
         <div
           className="show-more__content "
@@ -27,17 +26,16 @@ export default function Overview() {
             penatibus et magnis dis parturient montes, nascetur.
             <br />
             <br />
-            This course is aimed at people interested in UI/UX Design. We’ll
-            start from the very beginning and work all the way through, step by
-            step. If you already have some UI/UX Design experience but want to
-            get up to speed using Adobe XD then this course is perfect for you
-            too!
+            Este curso é destinado a pessoas interessadas em Design de UI/UX.
+            Começaremos do início e trabalharemos até o final, passo a passo.
+            Se você já tem alguma experiência em Design de UI/UX, mas deseja se
+            atualizar usando o Adobe XD, este curso também é perfeito para você!
             <br />
             <br />
-            First, we will go over the differences between UX and UI Design. We
-            will look at what our brief for this real-world project is, then we
-            will learn about low-fidelity wireframes and how to make use of
-            existing UI design kits.
+            Primeiro, abordaremos as diferenças entre Design de UX e UI.
+            Veremos qual é o nosso briefing para este projeto do mundo real e,
+            em seguida, aprenderemos sobre wireframes de baixa fidelidade e como
+            utilizar kits de design de UI existentes.
           </p>
         </div>
 
@@ -45,12 +43,12 @@ export default function Overview() {
           onClick={() => setShowMore((pre) => !pre)}
           className="show-more__button text-purple-1 fw-500 underline mt-30"
         >
-          Show more
+          Mostrar mais
         </button>
       </div>
 
       <div className="mt-60">
-        <h4 className="text-20 mb-30">What you'll learn</h4>
+        <h4 className="text-20 mb-30">O que você aprenderá</h4>
         <div className="row x-gap-100 justfiy-between">
           <div className="col-md-6">
             <div className="y-gap-20">
@@ -87,7 +85,7 @@ export default function Overview() {
       </div>
 
       <div className="mt-60">
-        <h4 className="text-20">Requirements</h4>
+        <h4 className="text-20">Requisitos</h4>
         <ul className="ul-list y-gap-15 pt-30">
           {requirements.map((elm, i) => (
             <li key={i}>{elm}</li>

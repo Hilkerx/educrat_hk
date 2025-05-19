@@ -15,7 +15,7 @@ export default function GetApp() {
               <img
                 style={{ height: "100%", width: "100%" }}
                 src="/assets/img/app/1.png"
-                alt="image"
+                alt="imagem"
               />
             </div>
           </div>
@@ -27,23 +27,24 @@ export default function GetApp() {
                 data-aos="fade-up"
                 data-aos-duration={500}
               >
-                Learn From
-                <br /> <span>Anywhere</span>
+                Aprenda de
+                <br /> <span>Qualquer Lugar</span>
               </h2>
               <p
                 className="app-content__text"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                Take classes on the go with the educrat app. Stream or download
-                to watch on the plane, the subway, or wherever you learn best.
+                Faça aulas onde estiver com o aplicativo IntegraEdu. Transmita
+                ou baixe para assistir no avião, no metrô ou onde você aprende
+                melhor.
               </p>
               <div className="app-content__buttons">
                 <Link to="#">
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/1.svg"
-                    alt="button"
+                    alt="botão"
                     data-aos="fade-up"
                     data-aos-duration={600}
                   />
@@ -52,7 +53,7 @@ export default function GetApp() {
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/2.svg"
-                    alt="button"
+                    alt="botão"
                     data-aos="fade-up"
                     data-aos-duration={600}
                   />

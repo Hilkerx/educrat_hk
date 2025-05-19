@@ -22,11 +22,12 @@ const masthead_info = [
 ];
 
 const hero_content = {
-  title: "Aprenda tecnologia com os melhores especialistas online!",
-  text_underline: "Educadores!",
+  title: "Integração dinâmica que ㅤㅤㅤㅤㅤㅤtransforma conhecimento ㅤㅤㅤㅤㅤㅤㅤem",
+  text_underline: "ação!",
+  text_align: "right",
   info_hero: (
     <>
-Desenvolva habilidades com cursos, certificados e diplomas online 
+      Desenvolva habilidades com cursos, certificados e diplomas online
       <br /> de instituições e empresas de elite.
     </>
   ),
@@ -83,11 +84,11 @@ const HomeHero = () => {
           <div className="row y-gap-30 justify-between items-end">
             <div className="col-xl-6 col-lg-6 col-sm-10">
               <div
-                className="masthead__content"
+                className="masthead__content div-pai div-filho"
                 data-aos="fade-up"
                 data-aos-delay="500"
               >
-                <h1 className="masthead__title">
+                <h1 className="masthead__title" >
                   {title}{" "}
                   <span className="text-green-1 underline">
                     {text_underline}
@@ -162,17 +163,10 @@ const HomeHero = () => {
                   />
                   <div
                     data-move="30"
-                    className="lg:d-none img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
+                  
                   >
-                    <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
-                      <img src={"/assets/img/masthead/1.svg"} alt="icon" />
-                    </div>
-                    <div className="ml-20">
-                      <div className="text-orange-1 text-16 fw-500 lh-1">
-                        3.000 +
-                      </div>
-                      <div className="mt-3">Cursos gratuitos</div>
-                    </div>
+                    
+                    
                   </div>
                 </div>
 
@@ -184,25 +178,7 @@ const HomeHero = () => {
                     style={{ objectFit: "cover" }}
                     alt="image"
                   />
-                  <div
-                    data-move="60"
-                    className="lg:d-none img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
-                  >
-                    <img src={"/assets/img/masthead/4.png"} alt="icon" />
-                    <div className="ml-20">
-                      <div className="text-dark-1 text-16 fw-500 lh-1">
-                        Ali Tufan
-                      </div>
-                      <div className="mt-3">UX/UI Designer</div>
-                      <div className="d-flex x-gap-5 mt-3">
-                        {starts.map((start, index) => (
-                          <div key={index}>
-                            <div className={start}></div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
 
                 <div className="masthead-image__el3">
@@ -213,26 +189,7 @@ const HomeHero = () => {
                     style={{ objectFit: "cover" }}
                     alt="image"
                   />
-                  <div
-                    data-move="30"
-                    className="shadow-4 img-el -w-260 px-30 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
-                  >
-                    <div className="img-el__side">
-                      <div className="size-50 d-flex justify-center items-center bg-purple-1 rounded-full">
-                        <img
-                          style={{ objectFit: "cover" }}
-                          src={"/assets/img/masthead/2.svg"}
-                          alt="icon"
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="text-purple-1 text-16 fw-500 lh-1">
-                        Parabéns!
-                      </div>
-                      <div className="mt-3">Sua admissão foi concluída</div>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>

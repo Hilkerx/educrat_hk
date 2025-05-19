@@ -12,7 +12,7 @@ export default function WhyCourse() {
                 data-aos="fade-up"
                 data-aos-duration={800}
               >
-                Why learn with our courses?
+                Por que aprender com nossos cursos?
               </h2>
 
               <p
@@ -20,7 +20,7 @@ export default function WhyCourse() {
                 data-aos="fade-up"
                 data-aos-duration={800}
               >
-                Lorem ipsum dolor sit amet, consectetur.
+                Descubra como a IntegraEdu pode transformar sua jornada de aprendizado.
               </p>
             </div>
           </div>

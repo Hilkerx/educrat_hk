@@ -29,9 +29,8 @@ export default function Menu({ allClasses, headerPosition }) {
 
   return (
     <div
-      className={`header-menu js-mobile-menu-toggle ${
-        headerPosition ? headerPosition : ""
-      }`}
+      className={`header-menu js-mobile-menu-toggle ${headerPosition ? headerPosition : ""
+        }`}
     >
       <div className="header-menu__content">
         <div className="mobile-bg js-mobile-bg"></div>
@@ -47,37 +46,15 @@ export default function Menu({ allClasses, headerPosition }) {
 
         <div className="menu js-navList">
           <ul className={`${allClasses ? allClasses : ""}`}>
-            <li className="menu-item-has-children">
+            <li>
               <Link
                 data-barba
-                to="#"
+                to="/"
                 className={menuItem == "Home" ? "activeMenu" : ""}
               >
-                Inicio <i className="icon-chevron-right text-13 ml-10"></i>
+                Início
               </Link>
-
-              <ul className="subnav">
-                <li className="menu__backButton js-nav-list-back">
-                  <Link to="#">
-                    <i className="icon-chevron-left text-13 mr-10"></i> Home
-                  </Link>
-                </li>
-
-                {menuList[0].links.map((elm, i) => (
-                  <li
-                    key={i}
-                    className={
-                      pathname.split("/")[1] == elm.href.split("/")[1]
-                        ? "activeMenu"
-                        : "inActiveMenu"
-                    }
-                  >
-                    <Link to={elm.href}>{elm.label}</Link>
-                  </li>
-                ))}
-              </ul>
             </li>
-
             <li className="menu-item-has-children -has-mega-menu">
               <Link
                 data-barba
@@ -92,7 +69,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   <div className="row x-gap-40">
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                      Layouts de lista de cursos
+                        Layouts de lista de cursos
                       </h4>
 
                       <ul className="mega__list">
@@ -115,7 +92,7 @@ export default function Menu({ allClasses, headerPosition }) {
 
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                      Layouts individuais do curso
+                        Layouts individuais do curso
                       </h4>
 
                       <ul className="mega__list">
@@ -178,10 +155,10 @@ export default function Menu({ allClasses, headerPosition }) {
                       </ul>
                     </div>
 
-                   
+
                   </div>
 
-                
+
                 </div>
               </div>
             </li>

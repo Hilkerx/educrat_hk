@@ -14,10 +14,10 @@ export default function News() {
               data-aos="fade-left"
               data-aos-duration={600}
             >
-              <h2 className="sectionTitle__title ">Resources & News</h2>
+              <h2 className="sectionTitle__title ">Recursos e notícias</h2>
 
               <p className="sectionTitle__text ">
-                Lorem ipsum dolor sit amet, consectetur.
+                Explore nossos recursos e fique por dentro das notícias.
               </p>
             </div>
           </div>

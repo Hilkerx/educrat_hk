@@ -24,7 +24,7 @@ const CategoriesHomeOne = () => {
                 <h2 className="sectionTitle__title ">Principais categorias</h2>
 
                 <p className="sectionTitle__text ">
-                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                  ====================================================================================================================================================
                 </p>
               </div>
             </div>

@@ -11,21 +11,27 @@ export const menuList = [
       {
         title: "Layouts da Lista de Cursos",
         links: [
-          { href: "/courses-list-4", label: "Desenvolvimento Web (HTML, CSS, JavaScript)" },
+          { href: "/courses-list-4", label: "Introdução ao HTML5" },
+          { href: "/courses-list-4", label: "CSS3: Estilizando a Web" },
+          { href: "/courses-list-4", label: "JavaScript para Iniciantes" },
+          { href: "/courses-list-4", label: "JavaScript Intermediário" },
+          { href: "/courses-list-4", label: "Projeto Prático: Criando um Site Responsivo" },
         ],
       },
       {
         title: "Layouts de Curso Individual",
         links: [
-          { href: "/courses-single-6/7", label: "Curso Individual v6" },
-          { href: "/course-cart", label: "Carrinho de Cursos" },
-          { href: "/course-checkout", label: "Finalizar Compra" },
+          { href: "/courses-single-6/7", label: "Curso Padrão (Clássico e Equilibrado)" },
+          { href: "/course-cart", label: "Curso Visual (Focado em Design e Criatividade)" },
+          { href: "/course-checkout", label: "Curso Avançado (Com cronograma e gamificação)" },
         ],
       },
       {
         title: "Sobre os Cursos",
         links: [
-          { href: "/lesson-single-2", label: "Página da Aula v2" },
+          { href: "/lesson-single-2", label: "1. Trilha: Fundamentos da Web" },
+          { href: "/lesson-single-2", label: "2. Formação: Desenvolvedor Front-End Júnior" },
+          { href: "/lesson-single-2", label: "3. Pacote: Da Estrutura ao Código Interativo" },
         ],
       },
       {
@@ -56,16 +62,16 @@ export const menuList = [
   {
     title: "Eventos",
     links: [
-      { href: "/event-list-2", label: "Lista de Eventos 2" },
-      { href: "/event-cart", label: "Carrinho de Eventos" },
-      { href: "/event-checkout", label: "Finalizar Evento" },
+      { href: "/event-list-2", label: "1. Agenda de Atividades" },
+      { href: "/event-cart", label: "2. Próximos Eventos e Encontros" },
+      { href: "/event-checkout", label: "3. Calendário Oficial do Curso" },
     ],
   },
   {
     title: "Blogs",
     links: [
-      { href: "/blog-list-3", label: "Lista de Blogs 3" },
-      { href: "/blogs/3", label: "Blog Individual" },
+      { href: "/blog-list-3", label: "1. Diário do Conhecimento" },
+      { href: "/blogs/3", label: "2. ConectaEDU" },
     ],
   },
   {

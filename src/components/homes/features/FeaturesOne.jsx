@@ -15,11 +15,12 @@ export default function LearnNewSkill() {
                 className="about-content__title customSized"
                 data-aos="fade-up"
               >
-                <span>Learn</span> new skills when and where you like.
+                <span>Aprenda</span> novas habilidades quando e onde você quiser.
+
               </h2>
               <p className="about-content__text" data-aos="fade-up">
-                Use the list below to bring attention to your product’s key
-                <br /> differentiator.
+              Use a lista abaixo para destacar o diferencial principal do seu
+                <br /> produto.
               </p>
               <div className="y-gap-20 pt-30">
                 {featureOne.map((elm, i) => (

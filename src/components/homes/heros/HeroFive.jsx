@@ -13,13 +13,13 @@ export default function HeroFive() {
           >
             <div className="masthead__content">
               <h1 className="masthead__title">
-                Master the Skills to Drive your{" "}
-                <span className="text-purple-1 underline">Career</span>
+                Domine as Habilidades para Impulsionar sua{" "}
+                <span className="text-purple-1 underline">Carreira</span>
               </h1>
               <p className="masthead__text pt-15">
-                Free online courses from the world’s leading experts.
+                Cursos online gratuitos com os melhores especialistas do mundo.
                 <br className="md:d-none" />
-                Join 17 million learners today
+                Junte-se a 8 milhões de alunos hoje
               </p>
               <div className="masthead__button row x-gap-20 y-gap-20 pt-30">
                 <div className="col-auto">
@@ -27,7 +27,7 @@ export default function HeroFive() {
                     to="/signup"
                     className="button -md -purple-1 -rounded text-white"
                   >
-                    Join For Free
+                    Inscreva-se Gratuitamente
                   </Link>
                 </div>
                 <div className="col-auto">
@@ -35,7 +35,7 @@ export default function HeroFive() {
                     to="/courses-list-1"
                     className="button -md -outline-dark-1 -rounded text-dark-1"
                   >
-                    Find Courses
+                    Encontre Cursos
                   </Link>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function HeroFive() {
             data-aos-delay="750"
           >
             <div className="masthead__image">
-              <img src="/assets/img/home-5/masthead/bg.svg" alt="image" />
+              <img src="/assets/img/home-5/masthead/bg.svg" alt="imagem" />
             </div>
           </div>
         </div>
