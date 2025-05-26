@@ -22,13 +22,13 @@ const masthead_info = [
 ];
 
 const hero_content = {
-  title: "Integração dinâmica que ㅤㅤㅤㅤㅤㅤtransforma conhecimento ㅤㅤㅤㅤㅤㅤㅤem",
+  title: "ㅤㅤㅤIntegração dinâmicaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ que transforma conhecimentoㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ em",
   text_underline: "ação!",
   text_align: "right",
   info_hero: (
     <>
-      Desenvolva habilidades com cursos, certificados e diplomas online
-      <br /> de instituições e empresas de elite.
+      ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤDesenvolva habilidades com cursos, certificados e diplomas online
+      <br /> ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤde instituições e empresas de elite.
     </>
   ),
   starts: [
@@ -112,7 +112,7 @@ const HomeHero = () => {
                       to="/signup"
                       className="button -md -purple-1 text-white"
                     >
-                      Cadastre-se gratuitamente
+                      ㅤㅤㅤㅤCadastre-se gratuitamenteㅤㅤㅤㅤ
                     </Link>
                   </div>
                   <div className="col-12 col-sm-auto">
@@ -121,7 +121,7 @@ const HomeHero = () => {
                       to="/courses-list-1"
                       className="button -md -outline-green-1 text-green-1"
                     >
-                      Encontre cursos
+                      ㅤㅤㅤㅤㅤEncontre cursosㅤㅤㅤㅤㅤ
                     </Link>
                   </div>
                 </div>
@@ -163,10 +163,10 @@ const HomeHero = () => {
                   />
                   <div
                     data-move="30"
-                  
+
                   >
-                    
-                    
+
+
                   </div>
                 </div>
 
@@ -185,11 +185,11 @@ const HomeHero = () => {
                   <img
                     className="js-mouse-move"
                     data-move="40"
-                    src={"/assets/img/masthead/3.png"}
+                    src={""}
                     style={{ objectFit: "cover" }}
                     alt="image"
                   />
-                 
+
                 </div>
               </div>
             </div>

@@ -24,7 +24,7 @@ const CategoriesHomeOne = () => {
                 <h2 className="sectionTitle__title ">Principais categorias</h2>
 
                 <p className="sectionTitle__text ">
-                  ====================================================================================================================================================
+                  
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const CategoriesHomeOne = () => {
                 {topCategories.map((item, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      to={`/courses-list-${item.id > 8 ? 1 : item.id}`}
+                      to={`/courses-list-{item.id > 8 ? 1 : item.id}`}
                       data-aos="fade-left"
                       data-aos-duration={(i + 1) * 350}
                       className="featureCard -type-1 -featureCard-hover linkCustomTwo"

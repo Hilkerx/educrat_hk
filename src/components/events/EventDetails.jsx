@@ -331,7 +331,7 @@ export default function EventDetails({ id }) {
             <div className="col-xl-4 col-lg-4 lg:order-1">
               <div className="event-info bg-white rounded-8 px-30 py-30 border-light shadow-1">
                 <div className="d-flex justify-between items-center">
-                  <div className="text-24 lh-1 fw-500 text-dark-1">$96.00</div>
+                  <div className="text-24 lh-1 fw-500 text-dark-1"></div>
 
                   <div className="d-flex items-center">
                     <div className="text-light-1 line-through mr-10">

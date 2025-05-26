@@ -17,10 +17,10 @@ const ShapeRendering = () => {
         />
       </defs>
       <g className="svg-waves__parallax">
-        <use xlinkHref="/#gentle-wave" x="48" y="0" />
-        <use xlinkHref="/#gentle-wave" x="48" y="3" />
-        <use xlinkHref="/#gentle-wave" x="48" y="5" />
-        <use xlinkHref="/#gentle-wave" x="48" y="7" />
+        <use xlinkHref="/#gentle-wave" x="48" y="13" />
+        <use xlinkHref="/#gentle-wave" x="48" y="16" />
+        <use xlinkHref="/#gentle-wave" x="48" y="18" />
+        <use xlinkHref="/#gentle-wave" x="48" y="20" />
       </g>
     </svg>
   );
