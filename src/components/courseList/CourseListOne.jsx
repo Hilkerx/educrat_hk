@@ -1461,34 +1461,6 @@ export default function CourseListOne() {
                 </div>
               </div>
 
-              <div className="row y-gap-30 side-content__wrap">
-                {sortedFilteredData
-                  .slice((pageNumber - 1) * 12, pageNumber * 12)
-                  .map((elm, i) => (
-                    <div
-                      key={i}
-                      className="side-content col-xl-4 col-lg-6 col-md-4 col-sm-6"
-                    >
-                      <div className="coursesCard -type-1 ">
-                        <div className="relative">
-                          <div className="coursesCard__image overflow-hidden rounded-8">
-                            <img
-                              className="w-1/1"
-                              src={elm.imageSrc}
-                              alt="image"
-                            />
-                            <div className="coursesCard__image_overlay rounded-8"></div>
-                          </div>
-                          <div className="d-flex justify-between py-10 px-10 absolute-full-center z-3">
-                            {elm.popular && (
-                              <>
-                                <div>
-                                  <div className="px-15 rounded-200 bg-purple-1">
-                                    <span className="text-11 lh-1 uppercase fw-500 text-white">
-                                      Popular
-                                    </span>
-                                  </div>
-                                </div>
 
                                 <div>
                                   <div className="px-15 rounded-200 bg-green-1">
@@ -1497,8 +1469,6 @@ export default function CourseListOne() {
                                     </span>
                                   </div>
                                 </div>
-                              </>
-                            )}
                           </div>
                         </div>
 

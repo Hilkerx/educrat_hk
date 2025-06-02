@@ -760,19 +760,6 @@ export default function CourseListFive() {
             </div>
           </div>
 
-          <div className="row y-gap-30">
-            {sortedFilteredData
-              .slice((pageNumber - 1) * 12, pageNumber * 12)
-              .map((elm, i) => (
-                <div key={i} className="col-lg-4 col-md-6">
-                  <div className="coursesCard -type-1 rounded-8 bg-white shadow-3">
-                    <div className="relative">
-                      <div className="coursesCard__image overflow-hidden rounded-top-8">
-                        <img className="w-1/1" src={elm.imageSrc} alt="image" />
-                        <div className="coursesCard__image_overlay rounded-top-8"></div>
-                      </div>
-                      <div className="d-flex justify-between py-10 px-10 absolute-full-center z-3">
-                        {elm.popular && (
                           <>
                             <div>
                               <div className="px-15 rounded-200 bg-purple-1">

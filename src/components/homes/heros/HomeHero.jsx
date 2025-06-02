@@ -148,7 +148,7 @@ const HomeHero = () => {
             </div>
 
             <div
-              className="col-xl-6 col-lg-6"
+              className="col-xl-6x col-lg-6"
               data-aos="fade-up"
               data-aos-delay="700"
             >
